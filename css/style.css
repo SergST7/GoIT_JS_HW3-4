@@ -1,0 +1,17 @@
+.wrapper{
+  width: 700px;
+}
+
+.question{
+  margin: 20px 0;
+}
+.answer-item{
+  margin-left: 25px;
+}
+input.answer{
+  margin-right: 10px;
+}
+
+.btn{
+  width: 60%;
+}

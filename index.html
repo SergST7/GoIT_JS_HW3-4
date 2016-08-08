@@ -3,47 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Home work JS 3-4</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
-<script>
-
-  var test = {
-
-    parentElem: document.body,
-
-    addHeader: function(txt){
-      var header = document.createElement('h3');
-      header.innerHTML = txt;
-      this.parentElem.appendChild(header)
-    },
-
-    addAnswer: function(txt, name){
-      var answer = document.createElement('div');
-      answer.innerHTML = '<label><input type="checkbox" name = ' +
-              name + '>' + txt + '</label>';
-      this.parentElem.appendChild(answer)
-    },
-
-    addButton: function(){
-      var button = document.createElement('button');
-      header.innerHTML = txt;
-      this.parentElem.appendChild(button)
-    }
-  };
-
-  test.addHeader('Тест по программированию');
-
-  for (var i = 1; i < 4; i++){
-    test.addHeader(i + '. Вопрос № ' + i);
-
-    for (var j = 1; j < 4; j++) {
-      test.addAnswer('Вариант ответа № ' + j, i+j)
-    }
-  }
-
-
-</script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
